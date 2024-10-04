@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        input[type="text"]{
+            border:2px solid rgb(128, 128, 210)
+        }
+        input[type="password"]{
+            border:3px solid green
+        }
+        ul>li{
+            color:green 
+        }
+        h1+p{
+            color:brown
+        }
+        p+p{
+            color:aquamarine
+        }
+        a:hover{
+            color:salmon
+        }
+        li:nth-child(1) {
+            background-color: rgb(235, 148, 148);
+        }
+        div:not(class2){
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--advanced selector-->
+    <!--attribute selector-->
+    <input type="text" placeholder="Enter name">
+<input type="password" placeholder="Enter password">
+<!--child selector-->
+<ul>
+    <li>home</li>
+    <li>school</li>
+    <li>age</li>
+</ul>
+<!--sibling selector-->
+<h1>sibling</h1>
+<p>Sibling</p>
+<p>Sibling</p>
+<!--psuedo classes-->
+<!--hover-->
+<a href="#">Hello</a>
+<!--nth child-->
+<ul>
+    <li>home</li>
+    <li>age</li>
+</ul>
+<!--not selector-->
+<div>class1</div>
+<div>class2</div>
+</body>
+</html>
